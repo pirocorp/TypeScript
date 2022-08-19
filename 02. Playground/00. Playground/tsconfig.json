@@ -1,22 +1,22 @@
 // "outFile": "./index.js",
 // 
-
 {
-    "compilerOptions": {
-      "module": "CommonJS",
-      "target": "es6",
-      "noImplicitAny": true,
-      "removeComments": true,
-      "preserveConstEnums": true,
-      "outDir": "./dist/",
-      "sourceMap": true
-    },
-    "include": [
-      "src/**/*"
-    ],
-    "exclude": [
-      "node_modules",
-      "**/*.spec.ts"
-    ]
+  "compileOnSave": true,
+  "compilerOptions": {      
+    "target": "es6",
+    "module": "CommonJS",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outDir": "./build/",
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts"
+  ]
 }
   

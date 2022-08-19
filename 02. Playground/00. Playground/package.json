@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "./node_modules/.bin/tsc",
-    "start": "node ./dist/index.js"
+    "build": "tsc",
+    "start": "node ./build/index.js",
+    "release": "tsc --sourceMap false --outFile ./release/index.js --module amd"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Zdravko Zdravkov",
+  "license": "MIT",
   "dependencies": {
     "express": "^4.18.1",
     "typescript": "^4.7.4",

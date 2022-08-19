@@ -352,5 +352,6 @@ MigrationBackup/
 
 # User Defined
 
-# Ignore All JS files 
+# Ignore All JS files and map
 *.js
+*.js.map
