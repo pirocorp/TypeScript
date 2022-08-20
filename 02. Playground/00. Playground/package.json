@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "node ./build/index.js",
+    "run": "npm run build && npm run start",
     "release": "tsc --sourceMap false --outFile ./release/index.js --module amd"
   },
   "author": "Zdravko Zdravkov",
